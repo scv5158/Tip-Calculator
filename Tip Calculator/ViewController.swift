@@ -47,10 +47,7 @@ class ViewController: UIViewController {
         //get bill amount
         let bill = Double(billText.text!) ?? 0
         let tipPercentage = Double(Int(String(format: "%.0f", sender.value)) ?? 0)
-        
-        print(bill)
-        print(tipPercentage)
-        
+                
         if( bill > 0.0 && tipPercentage > 0.0){
             let tip = bill * Double( tipPercentage / 100 )
             let total = bill + tip
