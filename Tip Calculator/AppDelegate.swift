@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Tip Calculator
 //
-//  Created by Admin on 11/17/20.
+//  Created by Siva Veerapalli on 11/17/20.
 //
 
 import UIKit
